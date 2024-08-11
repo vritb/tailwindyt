@@ -1,15 +1,13 @@
 import React, { Suspense } from "react";
-import image1 from "@/img/image-1.jpg";
-import image2 from "@/img/image-2.jpg";
-import image3 from "@/img/image-3.jpg";
-import image4 from "@/img/image-4.jpg";
-import image5 from "@/img/image-5.jpg";
+import image1 from "../img/image-1.jpg";
+import image2 from "../img/image-2.jpg";
+import image3 from "../img/image-3.jpg";
+import image4 from "../img/image-4.jpg";
+import image5 from "../img/image-5.jpg";
 import Image from "next/image";
 import clsx from "clsx";
 
-const LoadImage = async ({ imgSrc }: { imgSrc: any }) => {
-  const random = Math.floor(Math.random() * 5 * 5) * 100;
-  await new Promise((resolve: any) => setTimeout(resolve, random));
+const LoadImage = ({ imgSrc }: { imgSrc: any }) => {
   return (
     <Image
       src={imgSrc}
@@ -39,17 +37,8 @@ const Photos = () => {
               rotations[imageIndex % rotations.length]
             )}
           >
-            <Suspense
-              fallback={
-                <div className="w-full h-full bg-black/80 flex items-center justify-center">
-                  <p className="text-2xl font-medium text-white tracking-wider animate-pulse">
-                    Loading...
-                  </p>
-                </div>
-              }
-            >
               <LoadImage imgSrc={image} />
-            </Suspense>
+            
           </div>
         ))}
       </div>

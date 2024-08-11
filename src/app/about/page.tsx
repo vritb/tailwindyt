@@ -1,5 +1,6 @@
-import Container from "@/components/Container";
+//import "@/styles/globals.css"; 
 import React from "react";
+import Container from "@/components/Container";
 import portraitImage from "../../img/portrait.jpg";
 import Image from "next/image";
 

@@ -1,8 +1,8 @@
 import React from "react";
-import logoAirbnb from "@/img/logos/airbnb.svg";
-import logoFacebook from "@/img/logos/facebook.svg";
-import logoPlanetaria from "@/img/logos/planetaria.svg";
-import logoStarbucks from "@/img/logos/starbucks.svg";
+import logoAirbnb from "../img/logos/airbnb.svg";
+import logoFacebook from "../img/logos/facebook.svg";
+import logoPlanetaria from "../img/logos/planetaria.svg";
+import logoStarbucks from "../img/logos/starbucks.svg";
 import Image, { type ImageProps } from "next/image";
 import { FaBriefcase } from "react-icons/fa";
 import { Button } from "./Button";

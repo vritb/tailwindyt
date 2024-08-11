@@ -1,7 +1,8 @@
+import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
 
-function ChevronRightIcon(props: React.ComponentPropsWithoutRef<"svg">) {
+const ChevronRightIcon = (props: React.ComponentPropsWithoutRef<"svg">) => {
   return (
     <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" {...props}>
       <path
@@ -14,7 +15,7 @@ function ChevronRightIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   );
 }
 
-export function Card<T extends React.ElementType = "div">({
+export function Card<T extends React.ElementType = "div"> ({
   as,
   className,
   children,

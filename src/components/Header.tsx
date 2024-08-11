@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { Fragment, useEffect, useState } from "react";
-import profile from "@/img/profile.jpg";
+import profile from "../img/profile.jpg";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { IoCloseCircleOutline, IoSunnyOutline } from "react-icons/io5";
