@@ -1,10 +1,10 @@
 import SimpleLayout from "@/components/SimpleLayout";
 import React from "react";
-import logoAnimaginary from "@/img/logos/animaginary.svg";
-import logoCosmos from "@/img/logos/cosmos.svg";
-import logoHelioStream from "@/img/logos/helio-stream.svg";
-import logoOpenShuttle from "@/img/logos/open-shuttle.svg";
-import logoPlanetaria from "@/img/logos/planetaria.svg";
+import logoAnimaginary from "../../img/logos/animaginary.svg";
+import logoCosmos from "../../img/logos/cosmos.svg";
+import logoHelioStream from "../../img/logos/helio-stream.svg";
+import logoOpenShuttle from "../../img/logos/open-shuttle.svg";
+import logoPlanetaria from "../../img/logos/planetaria.svg";
 import { type Metadata } from "next";
 import { Card } from "@/components/Card";
 import Image from "next/image";

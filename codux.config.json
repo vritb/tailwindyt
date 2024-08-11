@@ -1,0 +1,4 @@
+{
+    "boardGlobalSetup": "./boards-global-setup.ts", "componentsDiscovery": {
+    }, "defaultImagesDir": "./src/img"
+}
